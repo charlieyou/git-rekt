@@ -47,6 +47,12 @@ function rekt()
   fi
   rm -rf temp
   git reset --hard HEAD
+
+  if [[ "$1" == "--riggity-riggity" ]]
+  then
+    echo "Riggity Riggity Rekt"
+    git push origin --force
+  fi
 }
 
 ############################################
@@ -69,5 +75,5 @@ else
   echo "Sorry, it's too late now."
 fi
 
-rekt
+rekt "$@"
 echo "Completed rekking"
