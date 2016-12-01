@@ -21,3 +21,9 @@ Git-rekt can be used like any other git plugin, i.e. go to the repository that y
     git rekt
     
 This will give you the option of whether you are sure you want to rek the repository, and like any good program it will remove all history independent of your input. I suggest trying git rekt on the git-rekt source repository that you installed the plugin from. Compare the commit history before and after the use of git rekt and be astounded at how history vanishes in front of your eyes.
+
+If you want to get riggity riggity rekt, add the --riggity-riggity flag
+
+    git rekt --riggity-riggity
+    
+This will force push to your origin.
